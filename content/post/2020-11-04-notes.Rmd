@@ -1,7 +1,7 @@
 ---
 title: Notes
 author: Haoxi Ma
-date: '2020-11-04'
+date: '2020-11-20'
 slug: notes
 categories:
   - R markdown
