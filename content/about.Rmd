@@ -17,9 +17,35 @@ aliases:
 type: Page
 ---
 
-***"I hope no longer feel guilty for life, every time I memorise"***<cr>
+***"I hope no longer feel guilty for life, every time I memorise"***<br>
 
-I am Haoxi Ma, . My life isn't very tough but still with some pity.<cr>
+I am Haoxi Ma, hard-working and enterprising. Like most of you, I have several real friends and a harmonious family.
+Life to me isn't very tough but still with some pity.<br>
+
+If you want to know more...<br>
+
+**· Grow from failure:**<br>
+
+```{r,results='hide',echo=FALSE,warning=FALSE}
+library(ggplot2)
+library(colorspace)
+Time<-c("2012Fall","2013Spring","2013Fall","2014Spring","2014Fall","2015Spring","2015Fall","2016Spring","2016Fall","2017Spring","2017Fall","2018Spring","2018Fall","2019Spring","2019Fall","2020Spring","2020Fall")
+GPA<-c(3.8,3.9,3.95,3.9,4.0,4.0,3.2,3.0,2.5,2.4,3.8,4.0,3.9,4.0,4.0,4.0,4.0)
+GPA.plot<-data.frame(Time,GPA)
+GPA.plot$Time<-factor(GPA.plot$Time,levels = Time)
+gg_GPA<-ggplot(GPA.plot,aes(x=Time,y=GPA,group=1))+geom_line(col="dark blue",size=1.5)+
+  geom_point(size=3,col="dark blue")+ylim(0,4)+scale_x_discrete(breaks = levels(GPA.plot$Time)[c(T, rep(F, 1))])+
+    labs(title="GPA from High school to Graduate",subtitle="Shown by semester",x="Semester",y="GPA")+
+  theme_minimal()
+plot(gg_GPA)
+```
+
+
+
+
+
+
+
 
 
 
