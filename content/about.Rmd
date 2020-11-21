@@ -17,7 +17,11 @@ aliases:
 type: Page
 ---
 
-***"I hope no longer feel guilty for life, every time I memorise"***
+***"I hope no longer feel guilty for life, every time I memorise"***<cr>
+
+I am Haoxi Ma, . My life isn't very tough but still with some pity.<cr>
+
+
 
 
 
