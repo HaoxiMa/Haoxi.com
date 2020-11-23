@@ -9,17 +9,20 @@ hideAuthorBio: 'true'
 hideComments: 'true'
 hideMetadata: 'true'
 hideSuggestions: 'true'
-description: Hugo, the world’s fastest framework for building websites
 aliases:
 - about-us
 - about-hugo
 - contact
 type: Page
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 ***"I hope no longer feel guilty for life, every time I memorise"***<br>
 
-I am Haoxi Ma, hard-working and enterprising. Like most of you, I have several real friends and a harmonious family.
+I am Haoxi Ma, hard-working and enterprising. In my spare time, playing computer games, listening Hip-hop music and playing guitar are my top choices. Like most of you, I have several real friends and a harmonious family.
 Life to me isn't very tough but still with some pity.<br>
 
 If you want to know more...<br>
@@ -28,7 +31,6 @@ If you want to know more...<br>
 
 ```{r,results='hide',echo=FALSE,warning=FALSE}
 library(ggplot2)
-library(colorspace)
 Time<-c("2012Fall","2013Spring","2013Fall","2014Spring","2014Fall","2015Spring","2015Fall","2016Spring","2016Fall","2017Spring","2017Fall","2018Spring","2018Fall","2019Spring","2019Fall","2020Spring","2020Fall")
 GPA<-c(3.8,3.9,3.95,3.9,4.0,4.0,3.2,3.0,2.5,2.4,3.8,4.0,3.9,4.0,4.0,4.0,4.0)
 GPA.plot<-data.frame(Time,GPA)
@@ -36,17 +38,47 @@ GPA.plot$Time<-factor(GPA.plot$Time,levels = Time)
 gg_GPA<-ggplot(GPA.plot,aes(x=Time,y=GPA,group=1))+geom_line(col="dark blue",size=1.5)+
   geom_point(size=3,col="dark blue")+ylim(0,4)+scale_x_discrete(breaks = levels(GPA.plot$Time)[c(T, rep(F, 1))])+
     labs(title="GPA from High school to Graduate",subtitle="Shown by semester",x="Semester",y="GPA")+
-  theme_minimal()
+  theme_minimal()+theme(plot.background = element_rect(color="grey",size = 1.5))
 plot(gg_GPA)
 ```
 
+As you can see, my GPA started to decrease in 2015 Fall, the first semester in undergraduate. At that time, after a long period of intense learning, I was admitted by a fairly nice university in China. However, instead of continuing working hard, I indulged in club activities and electronic games. Although I wanted to change this situation sometimes, it's hard to catch up with other people. And at the same time, the freshness of meeting new people and achievability of winning games let me fall deeper and deeper. This vicious circle made me confused and self-doubting.<br>
 
+Changes happened at the Junior when my mother and father encouraged me to study abroad. This my childhood dream pulled me to reality: it's time to back. Since then, I sitted in the first row every class, went back to the dormitory accompanied by the closing music of the library and tried to make up for the previous classes. It's really a tough but meaningful period. Finally, I got almost full GPA from that semester.<br>
 
+It's hard to say if I will study abroad at a better university or have a more brilliant future without losing at the beginning. This experience made me stronger and more tenacious. I do not regret to attend many clubs as well as 
+participate in esports competitions. The only thing I feel sorry for is that I should have paid more attention to the classes. Anyway, stay positive and keep going.
 
+**· No pain no gain:**<br>
 
+```{r,results='hide',echo=FALSE,warning=FALSE}
+gym.time<-c(0,1,2,3,4,5,6,7,8,9,10,11,12)
+Weight<-c(57,57,57.5,58,58,59,60,60,60.5,61,62,64,65)
+BMI<-Weight/(1.8^2)
+BMI.plot<-data.frame(gym.time,BMI)
+gg_BMI<-ggplot(BMI.plot,aes(x=gym.time,y=BMI))+geom_line(col="dark blue",size=1.5)+
+  geom_point(size=3,col="dark blue")+scale_x_continuous(breaks=gym.time)+
+  geom_hline(aes(yintercept=18.5),size=1,linetype=2,color=rgb(1,0,0,0.6))+
+  geom_text(aes(0,18.5,label = "Healthy BMI", vjust = "inward",hjust="inward"),nudge_y=0.1,color=rgb(1,0,0,0.6))+
+  labs(title="BMI of me",subtitle="By months of fitness",x="months",y="BMI")+
+  theme_minimal()+theme(plot.background = element_rect(color="grey",size = 1.5))
+plot(gg_BMI)
+```
 
+When I first came to America, it was hard to adapt the diet here, leading to appendicitis. After the surgery, I lost weight and my BMI was only 17.59 which means kind of underweight. I felt really bad and weak. In order to recover, I first started bodybuilding and tried to persist on it. To be honest, it's truly hard at the beginning. After several times hesitating to give up, I made it! Now, I am healthy enough and bodybuilding becomes one of my habits.
 
+**· Components of me:**<br>
 
+```{r,echo=FALSE,warning=FALSE}
+library(wordcloud2)
+par(mfrow=c(2,1))
+Personality<-c("analytical","cooperative","curious","efficient","adaptable","capable","independent","out-going","ambitious","amicable","apprehensive","candid","creative","dependable","energetic","humorous","industrious","modest","adroit","conscientious","motivated","passionate","rational","sociable")
+fre<-c(10,10,6,6,6,6,4,4,4,4,4,4,4,4,2,2,2,2,2,2,2,2,2,2)
+Per.plot<-data.frame(Personality,fre)
+wordcloud2(Per.plot,size=0.55,color = "random-dark")
+```
+
+Thanks for reading and nice to meet you
 
 
 
