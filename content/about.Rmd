@@ -69,6 +69,8 @@ When I first came to America, it was hard to adapt the diet here, leading to app
 
 **· Components of me:**<br>
 
+(if not shown, please refresh)
+
 ```{r,echo=FALSE,warning=FALSE}
 library(wordcloud2)
 par(mfrow=c(2,1))
