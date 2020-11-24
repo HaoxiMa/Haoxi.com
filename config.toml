@@ -75,6 +75,6 @@ disqusShortname = "bento-hugo-theme"
       #weight = 1
 
   [[menu.main]]
-      name = "COVID-19"
-      url = "https://www.google.com"
+      name = "COVID-19 tracker"
+      url = "https://haoxima.shinyapps.io/covid-19/"
       weight = 1
