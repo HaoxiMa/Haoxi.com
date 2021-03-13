@@ -3,8 +3,10 @@ title: "Who am I"
 author: "Haoxi Ma"
 date: '2019-02-28'
 output:
-  pdf_document: default
+  html_document:
+    df_print: paged
   word_document: default
+  pdf_document: default
 hideAuthorBio: 'true'
 hideComments: 'true'
 hideMetadata: 'true'
