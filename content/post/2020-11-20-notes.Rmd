@@ -24,7 +24,7 @@ slug: notes
 ***Lab板块 (一共8个lab，6个让你自己code，2个改code输出结果即可)：***<br>
 
 Lab1:<br>
-第一问，导入xlsx并查看sheet name：用libname导入xlsx表，就可以在library看到名字了（我们两都是一个income sheet 一个people sheet）。第二问，问第几个obs的某个变量值：在 proc print用（firstobs=n,obs=n)即可
+第一问，导入xlsx并查看sheet name：用libname导入xlsx表，就可以在library看到名字了（我们都是一个income sheet 一个people sheet）。第二问，问第几个obs的某个变量值：在 proc print用（firstobs=n,obs=n)即可
 
 Lab2: <br>
 问的是某个数据集的encoding和label：用proc contents即可（记得是encoding=window，label=employee）
@@ -76,7 +76,7 @@ by，var，id和idlabel都填什么（强烈建议完全搞透transpose，我们
 
 ***Conclusion:***
 
-我们都有一些SAS基础，就复习了2天，但感觉没有sas基础，1周也完全拿的下来，多看看proc means, proc contents,proc freq 的用法，再结合机经，问题不大。
+我们都有一些SAS基础，就复习了2天，但感觉没有sas基础，1周也完全拿的下来，多看看proc means, proc contents, proc freq 的用法，再结合机经，问题不大。
 
 最后，推荐一本书给不是完全为了拿证的小伙伴,the little SAS book。
 
