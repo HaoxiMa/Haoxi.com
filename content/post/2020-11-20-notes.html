@@ -1,0 +1,64 @@
+---
+title: "SAS Base Programming Using SAS 9.4 考经 (改版后)"
+author: "Haoxi Ma"
+date: '2020-11-20'
+documentclass: ctexart
+keywords:
+  - 中文
+  - R Markdown
+output:
+  rticles::ctex:
+    fig_caption: yes
+    number_sections: yes
+categories: R markdown
+tags: []
+hideAuthorBio: 'true'
+hideComments: 'true'
+hideMetadata: 'true'
+hideSuggestions: 'true'
+slug: notes
+---
+
+
+
+<p>今天刚考完based考试，分享下经验， 和女票都是这几天考的，因为女票先考，然后给我说了她考试的内容，我自己考的时候很多题都没怎么看就做了，基本都是一样的，最后考了959 hhhhh。考经如下：</p>
+<p><strong><em>Lab板块 (一共8个lab，6个让你自己code，2个改code输出结果即可)：</em></strong><br></p>
+<p>Lab1:<br>
+第一问，导入xlsx并查看sheet name：用libname导入xlsx表，就可以在library看到名字了（我们都是一个income sheet 一个people sheet）。第二问，问第几个obs的某个变量值：在 proc print用（firstobs=n,obs=n)即可</p>
+<p>Lab2: <br>
+问的是某个数据集的encoding和label：用proc contents即可（记得是encoding=window，label=employee）</p>
+<p>Lab3:<br>
+major变量中有一部分使用and连接两个major（computer science and statistics），分成major和second major，鉴于很难表述清楚不如直接上代码：</p>
+<pre class="r"><code>data output;
+set input;
+index=find(major,&quot;and&quot;);
+if index then do;
+secondmajor=substr(major,index+4);
+major=substr(major,1,index-2);
+end; 
+run;  </code></pre>
+<p>然后让你求major和secondmajor中频数最大的那个，用proc freq就可以轻松解决（记得是major=chemistry，secondmajor=economics)</p>
+<p>Lab4: <br>
+要求把每个postcode中最高的income输出到一个数据集中：只需要 proc sort by postcode descending income 然后在data步里用by postcode；和if first.postcode;即可</p>
+<p>Lab5:<br>
+要求one-to-one merge 两个datasets（要记得先sort再merge）然后创建个新变量（记得是merge by product 然后创建total=price*qrt）</p>
+<p>Lab6:<br>
+要求按age分组然后输出到young，mid，notasyoung三个dataset里，这里用if not missing(age) and age LE 39 then output=young;else if同理）</p>
+<p>Lab7 and Lab8:<br>
+两个改错题，可以先跑一下，从log中就可以知道大部分错误，但有些错误不显示（如缺失值运算），这里记不太清只能简单写写记得的错误:<br>
+1. dataset的名称younger改成young<br>
+2. proc means中total改成sum,if <br>
+3. then语句的作用范围<br>
+4. 还有一个要你求当bonus&gt;7k时total=sum(income,bonus）这里尤其要注意有些total运行出来是缺失值，是因为bonus&lt;7000。</p>
+<p><strong><em>Multiple-choice and Blank filling 板块:</em></strong></p>
+<p>选择题: 70题完全搞懂就够用了，基本可以拿满分</p>
+<p>填空题:<br>
+1.宏的用法：定义宏用%let amount=5000，引用宏用&amp;amount即可</p>
+<p>2.transpose的用法：给你一个原始数据集和输出结果问你
+by，var，id和idlabel都填什么（强烈建议完全搞透transpose，我们选择填空各遇到了一题）</p>
+<p>3.proc import 语句中让你填dbms=什么，这个很简单，看前面的数据类型，.xlsx就写dbms=xlsx，.xls就写dbms=excel</p>
+<p>4.是70题中的原题，变成了填空（记得是问数据集中有几个obs，因为code里没有output，所以就X=1）</p>
+<p><strong><em>Conclusion:</em></strong></p>
+<p>我们都有一些SAS基础，就复习了2天，但感觉没有sas基础，1周也完全拿的下来，多看看proc means, proc contents, proc freq 的用法，再结合机经，问题不大。</p>
+<p>最后，推荐一本书给不是完全为了拿证的小伙伴,the little SAS book。</p>
+<p>Finally, good luck and stay safe.</p>
