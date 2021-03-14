@@ -1,5 +1,5 @@
 ---
-title: "SAS Base Programming Using SAS 9.4 考经(改版后)"
+title: "SAS Base Programming Using SAS 9.4 考经 (改版后)"
 author: "Haoxi Ma"
 date: '2020-11-20'
 documentclass: ctexart
