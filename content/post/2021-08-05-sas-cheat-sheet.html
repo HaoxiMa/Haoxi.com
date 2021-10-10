@@ -1,0 +1,29 @@
+---
+title: "SAS Cheat Sheet"
+author: "Haoxi Ma"
+date: '2021-08-05'
+documentclass: ctexart
+keywords:
+  - 中文
+  - R Markdown
+output:
+  rticles::ctex:
+    fig_caption: yes
+    number_sections: yes
+categories: R markdown
+tags: []
+hideAuthorBio: 'true'
+hideComments: 'true'
+hideMetadata: 'true'
+hideSuggestions: 'true'
+---
+
+
+
+<ol style="list-style-type: decimal">
+<li>Character data type is left-aligned; Numeric data type is right-aligned</li>
+</ol>
+<p>2.<br>
+<code>INPUT(argument, format of the argument)</code> converts character into numeric, while <code>PUT</code> converts numeric into character</p>
+<p>3.<br>
+宏函数和宏变量：在运行程序的时候，最先运行code中的宏函数和宏变量，将text都替换完成，函数也跑完以后，得到的就是普通的SAS code了，然后正常执行语句</p>

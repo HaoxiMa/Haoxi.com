@@ -32,14 +32,14 @@ Lab2: <br>
 Lab3:<br>
 major变量中有一部分使用and连接两个major（computer science and statistics），分成major和second major，鉴于很难表述清楚不如直接上代码：
 ```{r,eval=FALSE,echo=TRUE}
-data output;
-set input;
-index=find(major,"and");
-if index then do;
-secondmajor=substr(major,index+4);
-major=substr(major,1,index-2);
-end; 
-run;  
+DATA output;
+SET input;
+index = FIND(major,"and");
+IF index THEN DO;
+secondmajor = SUBSTR(major,index+4);
+major = SUBSTR(major,1,index-2);
+END; 
+RUN;  
 ```
                   
 然后让你求major和secondmajor中频数最大的那个，用proc freq就可以轻松解决（记得是major=chemistry，secondmajor=economics)
@@ -80,4 +80,4 @@ by，var，id和idlabel都填什么（强烈建议完全搞透transpose，我们
 
 最后，推荐一本书给不是完全为了拿证的小伙伴,the little SAS book。
 
-Finally, good luck and stay safe.
+<span style="color: SteelBlue;">Finally, good luck and stay safe.</span>

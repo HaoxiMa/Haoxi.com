@@ -29,14 +29,14 @@ slug: notes
 问的是某个数据集的encoding和label：用proc contents即可（记得是encoding=window，label=employee）</p>
 <p>Lab3:<br>
 major变量中有一部分使用and连接两个major（computer science and statistics），分成major和second major，鉴于很难表述清楚不如直接上代码：</p>
-<pre class="r"><code>data output;
-set input;
-index=find(major,&quot;and&quot;);
-if index then do;
-secondmajor=substr(major,index+4);
-major=substr(major,1,index-2);
-end; 
-run;  </code></pre>
+<pre class="r"><code>DATA output;
+SET input;
+index = FIND(major,&quot;and&quot;);
+IF index THEN DO;
+secondmajor = SUBSTR(major,index+4);
+major = SUBSTR(major,1,index-2);
+END; 
+RUN;  </code></pre>
 <p>然后让你求major和secondmajor中频数最大的那个，用proc freq就可以轻松解决（记得是major=chemistry，secondmajor=economics)</p>
 <p>Lab4: <br>
 要求把每个postcode中最高的income输出到一个数据集中：只需要 proc sort by postcode descending income 然后在data步里用by postcode；和if first.postcode;即可</p>
@@ -61,4 +61,4 @@ by，var，id和idlabel都填什么（强烈建议完全搞透transpose，我们
 <p><strong><em>Conclusion:</em></strong></p>
 <p>我们都有一些SAS基础，就复习了2天，但感觉没有sas基础，1周也完全拿的下来，多看看proc means, proc contents, proc freq 的用法，再结合机经，问题不大。</p>
 <p>最后，推荐一本书给不是完全为了拿证的小伙伴,the little SAS book。</p>
-<p>Finally, good luck and stay safe.</p>
+<p><span style="color: SteelBlue;">Finally, good luck and stay safe.</span></p>
