@@ -18,7 +18,8 @@ hideMetadata: 'true'
 hideSuggestions: 'true'
 ---
 
-1. Character data type is left-aligned; Numeric data type is right-aligned
+1. <br>
+Character data type is left-aligned; Numeric data type is right-aligned
 
 2.<br>
 `INPUT(argument, format of the argument)` converts character into numeric, while `PUT` converts numeric into character
