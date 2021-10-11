@@ -24,7 +24,7 @@ text-align: justify}
 </style>
 
 ---
-### <span style="color: SteelBlue;">Clinical Trials</span>
+### <span style="color: #1A5276;">Clinical Trials</span>
 Clinical trials are systematically designed, set of activities that are done to verify the safety and efficacy of an investigational new drug (IND).
 
 ![](/post/2021-10-10-biostatistical-note_files/1.jpg)
