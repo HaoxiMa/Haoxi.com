@@ -27,6 +27,21 @@ Character data type is left-aligned; Numeric data type is right-aligned
 3.<br>
 宏函数和宏变量：在运行程序的时候，最先运行code中的宏函数和宏变量，将text都替换完成，函数也跑完以后，得到的就是普通的SAS code了，然后正常执行语句
 
+4.<br>
+在DATA步，可以用 `PUT` statement直接在log中输出想要的结果：
+```{r,eval=FALSE,echo=TRUE}
+DATA _NULL_;
+a1=.;a2=3;a3=4;a4=.;
+sum = SUM(OF a1-a4);
+PUT "Sum=" sum;
+RUN;
+```
+
+5.<br>
+一道横线"-": a1-a4 means a1 a2 a3 a4<br>
+两道横线"- -": a1- -a4 means all variables between a1 and a4 (inclusive) in the dataset
+
+
 
 
 
