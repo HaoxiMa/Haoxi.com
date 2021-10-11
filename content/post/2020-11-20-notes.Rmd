@@ -80,4 +80,4 @@ by，var，id和idlabel都填什么（强烈建议完全搞透transpose，我们
 
 最后，推荐一本书给不是完全为了拿证的小伙伴,the little SAS book。
 
-<span style="color: SteelBlue;">Finally, good luck and stay safe.</span>
+Finally, good luck and stay safe!
