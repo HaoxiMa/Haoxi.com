@@ -24,7 +24,7 @@ text-align: justify}
 </style>
 
 ---
-### Clinical Trials
+### **Clinical Trials**
 Clinical trials are systematically designed, set of activities that are done to verify the safety and efficacy of an investigational new drug (IND).
 
 ![](/post/2021-10-10-biostatistical-note_files/1.jpg)
@@ -37,7 +37,7 @@ Clinical trials are systematically designed, set of activities that are done to 
 
 * **Phase IV trial** for drugs or devices takes place after the FDA approves their use. A device or drug's effectiveness and safety are monitored in large, diverse populations. Sometimes, the side effects of a drug may not become clear until more people have taken it over a longer period of time.
 
-#### <span style="color: #1A5276;">Clinical Study Documents</span>
+#### Clinical Study Documents
 
 ![](/post/2021-10-10-biostatistical-note_files/22.jpg)
 
