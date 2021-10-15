@@ -25,21 +25,43 @@ Character data type is left-aligned; Numeric data type is right-aligned
 `INPUT(argument, format of the argument)` converts character into numeric, while `PUT` converts numeric into character
 
 3.<br>
-宏函数和宏变量：在运行程序的时候，最先运行code中的宏函数和宏变量，将text都替换完成，函数也跑完以后，得到的就是普通的SAS code了，然后正常执行语句
+宏函数和宏变量理解：在运行程序的时候，最先运行code中的宏函数和宏变量，将text都替换完成，函数也跑完以后，得到的就是普通的SAS code了，然后正常执行语句
 
 4.<br>
 在DATA步，可以用 `PUT` statement直接在log中输出想要的结果：
 ```{r,eval=FALSE,echo=TRUE}
 DATA _NULL_;
-a1=.;a2=3;a3=4;a4=.;
+a1=.;a2=3;a3=4;a4=101;
 sum = SUM(OF a1-a4);
-PUT "Sum=" sum;
+PUT "Output in log: " sum= a1= a2= a3= a4;
 RUN;
+
+Results:
+Output in log: sum=108 a1=. a2=3 a3=4 101
 ```
 
 5.<br>
 一道横线"-": a1-a4 means a1 a2 a3 a4<br>
 两道横线"- -": a1- -a4 means all variables between a1 and a4 (inclusive) in the dataset
+
+6.<br>
+**View Macro Variables:**<br>
+Viewing the values of all current macro variables: `%PUT _ALL_;`<br>
+In addition to `_ALL_` you could use any of the following:<br>
+
+* `_USER_` to list only user defined macro variables;
+* `_AUTOMATIC_` to list those defined by the SAS system;
+* `_GLOBAL_` to list all session wide macro variables (global symbol table);
+* `_LOCAL_` to list those macro variables local to the executing macro.
+
+**Delete Unneeded Global Macro Variables:**<br>
+When delete the specific global macro variable(s): <br>
+`%SYMDEL macro-variable(s);`<br>
+
+
+
+
+
 
 
 
