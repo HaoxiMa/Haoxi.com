@@ -59,5 +59,23 @@ Mock shells is like the relational schema in SQL. It gives code programmer the g
 * **Case Report Forms (CRF)**<br>
 CRF is a printed, optical, or electronic document designed to record all protocol-required information on each subject in a clinical research study. 
 
+### **Abbreviation**
+
+AE: Adverse Events<br>
+ADE: Adverse Device Effect<br>
+CRF: Case Report Forms<br>
+CI: Clinical Investigation<br>
+CIP: Clinical Investigation Plan<br>
+CSR: Clinical Study Report<br>
+DD: Device Deficiency<br>
+IB: Investigator's Brochure<br>
+SAP: Statistical Analysis Plan<br>
+SAE: Serious Adverse Events<br>
+SADE: Serious Adverse Device Effect<br>
+USADE: Unanticipated Serious Adverse Device Effect<br>
+
+
+
+
 
 
