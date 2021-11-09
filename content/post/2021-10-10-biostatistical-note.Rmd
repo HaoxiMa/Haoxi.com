@@ -137,7 +137,7 @@ The glucose area under the curve, which is an index of whole glucose excursion a
 
 ***<u>References</u>***
 
-*1. Udemy: The Simplest Guide to Clinical Trails Data Analysis with SAS*<br>
+*1. Udemy: The Simplest Guide to Clinical Trails Data Analysis with SAS: https://www.udemy.com/course/the-simplest-guide-to-clinical-sas-programming/*<br>
 *2. https://www.cdc.gov/diabetes/managing/managing-blood-sugar/a1c.html*<br>
 *3. https://www.diabetes.org.uk/diabetes-the-basics/differences-between-type-1-and-type-2-diabetes*<br>
 
