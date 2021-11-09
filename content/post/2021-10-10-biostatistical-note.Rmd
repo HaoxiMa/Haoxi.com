@@ -63,16 +63,83 @@ CRF is a printed, optical, or electronic document designed to record all protoco
 
 AE: Adverse Events<br>
 ADE: Adverse Device Effect<br>
+BG: Blood Glucose<br>
+CGM: Continuous Glucose Monitoring<br>
 CRF: Case Report Forms<br>
 CI: Clinical Investigation<br>
 CIP: Clinical Investigation Plan<br>
 CSR: Clinical Study Report<br>
 DD: Device Deficiency<br>
+EOS: End of Study<br>
 IB: Investigator's Brochure<br>
 SAP: Statistical Analysis Plan<br>
 SAE: Serious Adverse Events<br>
 SADE: Serious Adverse Device Effect<br>
+SG: Sensor Glucose<br>
+SMBG: Self-Monitoring of Blood Glucose<br>
+TAR: Time Above Range<br>
+TBR: Time Below Range<br>
+TDD: Total Daily Dose<br>
+TIR: Time in Target Range<br>
 USADE: Unanticipated Serious Adverse Device Effect<br>
+
+
+### **Knowledge about Diabetes**
+
+**Type 1 and Type 2 Diabetes**
+
+<table>
+<tr>
+<td> </td>
+<td>Type 1</td>
+<td>Type 2</td>
+</tr>
+<tr>
+<td><p align="left">What is happening?</p></td>
+<td><p align="left">Your body attacks the cells in your pancreas which means it cannot make any insulin.</p></td>
+<td><p align="left">Your body is unable to make enough insulin or the insulin you do make doesn’t work properly.</p></td>
+</tr>
+<tr>
+<td><p align="left">Risk factors</p></td>
+<td><p align="left">We don’t currently know what causes type 1 diabetes.</p></td>
+<td><p align="left">We know some things can put you at risk of having type 2 like weight and ethnicity.</p></td>
+</tr>
+<tr>
+<td><p align="left">Symptoms</p></td>
+<td><p align="left">The symptoms for type 1 appear more quickly.</p></td>
+<td><p align="left">Type 2 symptoms can be easier to miss because they appear more slowly.</p></td>
+</tr>
+<tr>
+<td><p align="left">Management</p></td>
+<td><p align="left">Type 1 is managed by taking insulin to control your blood sugar.</p></td>
+<td><p align="left">You can manage type 2 diabetes in more ways than type 1. These include through medication, exercise and diet. People with type 2 can also be prescribed insulin.</p></td>
+</tr>
+<tr>
+<td><p align="left">Cure and Prevention</p></td>
+<td><p align="left">Currently there is no cure for type 1 but research continues.</p></td>
+<td><p align="left">Type 2 cannot be cured but there is evidence to say in many cases it can be prevented and put into remission.</p></td>
+</tr>
+</table>
+
+
+
+**A1C**<br>
+The A1C test-also known as the hemoglobin A1C or HbA1c test-is a simple blood test that measures your average blood sugar levels over the past 3 months. It's one of the commonly used tests to diagnose prediabetes and diabetes, and is also the main test to help you and your health care team manage your diabetes.
+
+A normal A1C level is below 5.7%, a level of 5.7% to 6.4% indicates prediabetes, and a level of 6.5% or more indicates diabetes. Within the 5.7% to 6.4% prediabetes range, the higher your A1C, the greater your risk is for developing type 2 diabetes.
+
+**Two Insulin-Taking Ways:**<br>
+To manage diabetes, people may need insulin and other medication to help control body sugar levels. The two main ways to take insulin are bolus and basal. `Bolus insulin` is the quick-acting delivery that you often take before mealtimes while `basal insulin` is longer-acting and helps keep your glucose levels steady day and night.
+
+**The Glucose Area Under the Curve (AUC)**<br>
+The glucose area under the curve, which is an index of whole glucose excursion after glucose loading, has been widely used for calculating the glycemic index and for evaluating the efficacy of medications for postprandial hyperglycemia.
+
+
+***<u>References</u>***
+
+*1. Udemy: The Simplest Guide to Clinical Trails Data Analysis with SAS*<br>
+*2. https://www.cdc.gov/diabetes/managing/managing-blood-sugar/a1c.html*<br>
+*3. https://www.diabetes.org.uk/diabetes-the-basics/differences-between-type-1-and-type-2-diabetes*<br>
 
 
 
