@@ -225,6 +225,11 @@ Under ITT, study participants are analyzed as members of the treatment group to 
 *1. Udemy: The Simplest Guide to Clinical Trails Data Analysis with SAS: https://www.udemy.com/course/the-simplest-guide-to-clinical-sas-programming/*<br>
 *2. https://www.cdc.gov/diabetes/managing/managing-blood-sugar/a1c.html*<br>
 *3. https://www.diabetes.org.uk/diabetes-the-basics/differences-between-type-1-and-type-2-diabetes*<br>
+*4. https://aip.scitation.org/doi/abs/10.1063/5.0049209*<br>
+*5. https://diabetesstrong.com/insulin-to-carb-ratios/*<br>
+*6. https://www.cdc.gov/diabetes/basics/type-1-types-of-insulin.html*<br>
+*7. https://www.healthline.com/health/diabetes/insulin-and-glucagon#working-together*<br>
+*8. https://jamanetwork.com/journals/jama/article-abstract/1884555#:~:text=The%20ITT%20principle%20defines%20both,they%20received%2C%20the%20intended%20treatment.*<br>
 
 
 
