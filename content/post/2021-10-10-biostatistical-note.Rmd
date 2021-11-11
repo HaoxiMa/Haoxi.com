@@ -30,7 +30,6 @@ Clinical trials are systematically designed, set of activities that are done to 
 ![](/post/2021-10-10-biostatistical-note_files/1.jpg)
 
 * **Phase I trial** tests an experimental treatment on a small group of often healthy people (20 to 80) to judge its safety and side effects and to find the correct drug dosage.
-
 * **Phase II trial** uses more people (100 to 300). While the emphasis in Phase I is on safety, the emphasis in Phase II is on effectiveness. This phase aims to obtain preliminary data on whether the drug works in people who have a certain disease or condition. These trials also continue to study safety, including short-term side effects. This phase can last several years.
 
 * **Phase III trial** gathers more information about safety and effectiveness, studying different populations and different dosages, using the drug in combination with other drugs. The number of subjects usually ranges from several hundred to about 3,000 people. If the FDA agrees that the trial results are positive, it will approve the experimental drug or device.
@@ -81,10 +80,19 @@ TAR: Time Above Range<br>
 TBR: Time Below Range<br>
 TDD: Total Daily Dose<br>
 TIR: Time in Target Range<br>
+UADE: Unanticipated Adverse Device Effect<br>
 USADE: Unanticipated Serious Adverse Device Effect<br>
 
 
 ### **Knowledge about Diabetes**
+
+**How Insulin Works**<br>
+During digestion, foods that contain carbohydrates are converted into glucose. Most of this glucose is sent into your bloodstream, causing a rise in blood glucose levels. This increase in blood glucose signals your pancreas to produce insulin.
+
+The insulin tells cells throughout your body to take in glucose from your bloodstream. As the glucose moves into your cells, your blood glucose levels go down. Some cells use the glucose as energy. Other cells, such as in your liver and muscles, store any excess glucose as a substance called glycogen.
+
+**Sensor Glucose vs Blood Glucose**<br>
+Your sensor glucose (SG) readings are taken from your interstitial fluid[组织液], and not from your blood, like fingersticks.
 
 **Type 1 and Type 2 Diabetes**
 
@@ -121,25 +129,103 @@ USADE: Unanticipated Serious Adverse Device Effect<br>
 </tr>
 </table>
 
-
-
 **A1C**<br>
 The A1C test-also known as the hemoglobin A1C or HbA1c test-is a simple blood test that measures your average blood sugar levels over the past 3 months. It's one of the commonly used tests to diagnose prediabetes and diabetes, and is also the main test to help you and your health care team manage your diabetes.
 
 A normal A1C level is below 5.7%, a level of 5.7% to 6.4% indicates prediabetes, and a level of 6.5% or more indicates diabetes. Within the 5.7% to 6.4% prediabetes range, the higher your A1C, the greater your risk is for developing type 2 diabetes.
 
-**Two Insulin-Taking Ways:**<br>
+**Bolus vs Basal Insulin:**<br>
 To manage diabetes, people may need insulin and other medication to help control body sugar levels. The two main ways to take insulin are bolus and basal. `Bolus insulin` is the quick-acting delivery that you often take before mealtimes while `basal insulin` is longer-acting and helps keep your glucose levels steady day and night.
 
 **The Glucose Area Under the Curve (AUC)**<br>
 The glucose area under the curve, which is an index of whole glucose excursion after glucose loading, has been widely used for calculating the glycemic index and for evaluating the efficacy of medications for postprandial hyperglycemia.
 
+**Open Loop vs Closed Loop**<br>
+Insulin therapy is one of the most widely used methods for antidiabetic treatment. In contrast with manually controlled open-loop insulin delivery devices, closed-loop devices are continuously and automatically operated to mimic the natural insulin production process of the pancreas.
+
+**Carb Ratio**<br>
+Your insulin-to-carb ratio (also just called a "carb ratio" or "carb factor") indicates how many grams of carbohydrate one unit of rapid-acting insulin covers to ensure that your blood glucose stay in your desired range.<br> 
+E.g. *"If my carb ratio is 1:10 and I'm eating 30 grams of carbs, I'll need 3 units of rapid-acting insulin to cover the meal"*
+
+**Types of Insulin**<br>
+Terms to know:
+
+* Onset - How quickly insulin lowers your blood sugar.
+* Peak Time - When insulin is at maximum strength.
+* Duration - How long insulin works to lower your blood sugae.
+
+<table>
+<tr>
+<td>Insulin Type</td>
+<td>Onset</td>
+<td>Peak Time</td>
+<td>Duration</td>
+<td>Method</td>
+</tr>
+<tr>
+<td><p align="left">Rapid acting</p></td>
+<td><p align="left">15 minutes</p></td>
+<td><p align="left">1 hour</p></td>
+<td><p align="left">2 to 4 hours</p></td>
+<td><p align="left">Usually taken right before a meal. Often used with longer-acting insulin</p></td>
+</tr>
+<tr>
+<td><p align="left">Rapid-acting inhaled</p></td>
+<td><p align="left">10 to 15 minutes</p></td>
+<td><p align="left">30 minutes</p></td>
+<td><p align="left">3 hours</p></td>
+<td><p align="left">Usually taken right before a meal. Often used with injectable long-acting insulin</p></td>
+</tr>
+<tr>
+<td><p align="left">Regular/short acting</p></td>
+<td><p align="left">30 minutes</p></td>
+<td><p align="left">2 to 3 hours</p></td>
+<td><p align="left">3 to 6 hours</p></td>
+<td><p align="left">Usually taken 30 to 60 minutes before a meal</p></td>
+</tr>
+<tr>
+<td><p align="left">Intermediate acting</p></td>
+<td><p align="left">2 to 4 hours</p></td>
+<td><p align="left">4 to 12 hours</p></td>
+<td><p align="left">12 to 18 hours</p></td>
+<td><p align="left">Covers insulin needs for half a day or overnight. Often used with rapid- or short-acting insulin</p></td>
+</tr>
+<tr>
+<td><p align="left">Long acting</p></td>
+<td><p align="left">2 hours</p></td>
+<td><p align="left">Does not peak</p></td>
+<td><p align="left">Up to 24 hours</p></td>
+<td><p align="left">Covers insulin needs for about a full day. Often used, when needed, with rapid- or short-acting insulin</p></td>
+</tr>
+<tr>
+<td><p align="left">Ultra-long</p></td>
+<td><p align="left">6 hours</p></td>
+<td><p align="left">Does not peak</p></td>
+<td><p align="left">36 hours or longer</p></td>
+<td><p align="left">Provides steady insulin for long periods</p></td>
+</tr>
+<tr>
+<td><p align="left">Premixed</p></td>
+<td><p align="left">5 to 60 minutes</p></td>
+<td><p align="left">Peak vary</p></td>
+<td><p align="left">10 to 16 hours</p></td>
+<td><p align="left">Combines intermediate- and short- acting insulin. Usually taken 10 to 30 minutes before breakfast and dinner</p></td>
+</tr>
+</table>
+
+### **Statistical Knowledge**
+
+**ITT Principle**
+The intention-to-treat (ITT) principle is a cornerstone in the interpretation of randomized clinical trails conducted with the goal of influencing the selection of medical therapy for well-defined groups of patients. The ITT principle defines both the study population included in the primary effect analysis and how the outcomes are analyzed.
+
+Under ITT, study participants are analyzed as members of the treatment group to which they were randomized regardless of their adherence to, or whether they received, the intended treatment. For example, in a trail in which patients are randomized to receive either treatment A or treatment B, a patient may be randomized to receive treatment A but erroneously receive treatment B, or never receive any treatment, or not adhere to treatment A. In all of these situations, the patient whould be included in group A when comparing treatment outcomes using an ITT analysis.
 
 ***<u>References</u>***
 
 *1. Udemy: The Simplest Guide to Clinical Trails Data Analysis with SAS: https://www.udemy.com/course/the-simplest-guide-to-clinical-sas-programming/*<br>
 *2. https://www.cdc.gov/diabetes/managing/managing-blood-sugar/a1c.html*<br>
 *3. https://www.diabetes.org.uk/diabetes-the-basics/differences-between-type-1-and-type-2-diabetes*<br>
+
 
 
 
