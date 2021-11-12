@@ -215,7 +215,10 @@ Terms to know:
 
 ### **Statistical Knowledge**
 
+**ITT Principle**<br>
+The intention-to-treat (ITT) principle is a cornerstone in the interpretation of randomized clinical trails conducted with the goal of influencing the selection of medical therapy for well-defined groups of patients. The ITT principle defines both the study population included in the primary effect analysis and how the outcomes are analyzed.
 
+Under ITT, study participants are analyzed as members of the treatment group to which they were randomized regardless of their adherence to, or whether they received, the intended treatment. For example, in a trail in which patients are randomized to receive either treatment A or treatment B, a patient may be randomized to receive treatment A but erroneously receive treatment B, or never receive any treatment, or not adhere to treatment A. In all of these situations, the patient whould be included in group A when comparing treatment outcomes using an ITT analysis.
 
 
 ***<u>References</u>***
@@ -227,7 +230,7 @@ Terms to know:
 *5. https://diabetesstrong.com/insulin-to-carb-ratios/*<br>
 *6. https://www.cdc.gov/diabetes/basics/type-1-types-of-insulin.html*<br>
 *7. https://www.healthline.com/health/diabetes/insulin-and-glucagon#working-together*<br>
-*8. https://jamanetwork.com/journals/jama/article-abstract/1884555#:~:text=The%20ITT%20principle%20defines%20both,they%20received%2C%20the%20intended%20treatment.*<br>
+*8. https://jamanetwork.com/journals/jama/article-abstract/1884555<br>
 
 
 
