@@ -237,10 +237,10 @@ The AB/BA model is the simplest type of crossover trial. At first, participants 
 
 ![](/post/2021-10-10-biostatistical-note_files/WechatIMG666.png)
 
-*[Advantages]*<br>
+*Advantages*<br>
 By using a crossover trial in order to compare several interventions, a researcher can minimize the risk of confounding because all interventions are measured on the same participants. One can say that study participants serve as their own control. This leads to another advantage which is less study participants are required compared to a standard parallel randomized controlled trial (RCT). Reduction of sample size is consistent with the principle in medical research to use resources wisely. Furthermore, blinding of study participants can be maintained and statistical tests assuming randomization can be used.
 
-*[Limitations]*<br>
+*Limitations*<br>
 This design sounds very appealing, however there are various limitations that need to be considered:
 
 1. Crossover trials can only be conducted when the disease persists for a longer period of time, hence, crossover trials are mostly used in studying chronic diseases. There are some short-term illnesses or acute conditions that might be cured once they are treated and there are treatments that will have a permanent effect (i.e. surgery) on the patient. It is usually not possible to perform crossover trials in such cases.<br>
