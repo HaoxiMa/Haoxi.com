@@ -69,7 +69,9 @@ CI: Clinical Investigation<br>
 CIP: Clinical Investigation Plan<br>
 CSR: Clinical Study Report<br>
 DD: Device Deficiency<br>
+DKA: Diabetic Ketoacidosis<br>
 EOS: End of Study<br>
+FDA: Food and Drug Administration<br>
 IB: Investigator's Brochure<br>
 SAP: Statistical Analysis Plan<br>
 SAE: Serious Adverse Events<br>
@@ -213,6 +215,46 @@ Terms to know:
 </tr>
 </table>
 
+### **Design of Experiment**
+
+**Multi-center**<br>
+A multicenter research trail is a clinical trail conducted at more than one medical center or clinic. Most large clinical trails, particularly Phase III trails, are conducted at several clinical research centers
+
+**Randomized Controlled Trial (RCT)**<br>
+RCT is a study in which people are allocated at random (by chance alone) to receive one of several clinical interventions. One of these interventions is the standard of comparison or control. The control may be a standard practice, a placebo ("sugar pill"), or no intervention at all. RCTs seek to measure and compare the outcomes after the participants receive the interventions. 
+
+**Parallel Group Study**<br>
+When every participant receives one and only one treatment in a random manner, this kind of complete randomized design is called a parallel group design. The most important element of this design is randomization which means participants are randomly placed into a group to lower the risk of statistical bias or other kinds of erroneous results.<br>
+
+Generally, researchers use either one of the two types of parallel group designs in a comparative clinical trial, that is, parallel group (or group comparison) designs or matched-pair parallel designs (Figure below). Based on certain characteristics, participants are first paired in matched-pair parallel design. Within one pair, each member will be assigned to different study subgroups randomly, which makes it possible to compare similar participants undergoing diverse procedures between each other. A treatment group vs. a control group is the simplest two-group comparison parallel-group design. In each treatment group there are usually the nearly same amount of participants that's not always the case.<br>
+
+A parallel group design is very different from a crossover design in which one group of participants receives treatment A first followed by B then while the other group does the opposite. However, there is also a significant issue in a parallel trial. Researchers must take into consideration the intra subject variability, the variability within the same participants in responses to treatment.
+
+![](/post/2021-10-10-biostatistical-note_files/WechatIMG667.png)
+
+**Cross-over Study**<br>
+The AB/BA model is the simplest type of crossover trial. At first, participants of one group will receive medication A and after a wash-out period, participants of the same group will receive medication B. The same applies to the second study group, but the other way around. Extensions to this form include the ABC/CBA/BCA regimens.
+
+![](/post/2021-10-10-biostatistical-note_files/WechatIMG666.png)
+
+*[Advantages]*<br>
+By using a crossover trial in order to compare several interventions, a researcher can minimize the risk of confounding because all interventions are measured on the same participants. One can say that study participants serve as their own control. This leads to another advantage which is less study participants are required compared to a standard parallel randomized controlled trial (RCT). Reduction of sample size is consistent with the principle in medical research to use resources wisely. Furthermore, blinding of study participants can be maintained and statistical tests assuming randomization can be used.
+
+*[Limitations]*<br>
+This design sounds very appealing, however there are various limitations that need to be considered:
+
+1. Crossover trials can only be conducted when the disease persists for a longer period of time, hence, crossover trials are mostly used in studying chronic diseases. There are some short-term illnesses or acute conditions that might be cured once they are treated and there are treatments that will have a permanent effect (i.e. surgery) on the patient. It is usually not possible to perform crossover trials in such cases.<br>
+
+2. There is a great risk for aliasing. This term describes the risk that there might be a carry-over from the effect of the previous intervention on to the effect of the next intervention thereby altering results. Therefore, the treatment effect might not only be due to the treatment itself, but also due to interactions between treatment and study-period/sequence. Statistical tests have been suggested in order to test the carry-over risk, but a great chance of a type-II error (falsely accepting the null hypothesis, here: falsely accepting the hypothesis that there is no interaction between treatment and study-period or study-group) persists.<br>
+
+3. It is difficult to estimate the time required in order for the intervention to be fully washed-out. While it might be relatively simple to estimate the wash-out period when the intervention is given as a drug looking at the half-life of the studied medications, things become a lot trickier when the interventions include psychological therapies, for example.<br>
+
+4. In contrast to parallel designs, crossover trials consist of two study periods. This means that they usually take up more time, and statistical analysis can be more complicated if participants do not complete all stages of the trial.<br>
+
+In conclusion, crossover trials are a good study design that can be used to efficiently compare interventions on as few participants as possible when studying chronic diseases. However, many requirements (low risk of carry-over, wash-out period etc.) must be met and therefore it is not used as often as a parallel RCTs.
+
+
+
 ### **Statistical Knowledge**
 
 **ITT Principle**<br>
@@ -231,6 +273,9 @@ Under ITT, study participants are analyzed as members of the treatment group to 
 *6. https://www.cdc.gov/diabetes/basics/type-1-types-of-insulin.html*<br>
 *7. https://www.healthline.com/health/diabetes/insulin-and-glucagon#working-together*<br>
 *8. https://jamanetwork.com/journals/jama/article-abstract/1884555*<br>
+*9. https://s4be.cochrane.org/blog/2020/09/07/crossover-trials-what-are-they-and-what-are-their-advantages-and-limitations/*<br>
+*10. https://www.medicinenet.com/randomized_controlled_trial/definition.htm*<br>
+*11. https://www.cd-biosciences.com/parallel-group-design/*<br>
 
 
 
