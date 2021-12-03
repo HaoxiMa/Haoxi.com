@@ -60,6 +60,7 @@ CRF is a printed, optical, or electronic document designed to record all protoco
 
 ### **Abbreviation**
 
+A1C(HbA1C): Average Blood Glucose<br>
 AE: Adverse Events<br>
 ADE: Adverse Device Effect<br>
 BG: Blood Glucose<br>
@@ -73,6 +74,7 @@ DD: Device Deficiency<br>
 DKA: Diabetic Ketoacidosis<br>
 EOS: End of Study<br>
 FDA: Food and Drug Administration<br>
+HCL: Hybrid Closed Loop<br>
 IB: Investigator's Brochure<br>
 SAP: Statistical Analysis Plan<br>
 SAE: Serious Adverse Events<br>
@@ -258,6 +260,11 @@ This design sounds very appealing, however there are various limitations that ne
 
 In conclusion, crossover trials are a good study design that can be used to efficiently compare interventions on as few participants as possible when studying chronic diseases. However, many requirements (low risk of carry-over, wash-out period etc.) must be met and therefore it is not used as often as a parallel RCTs.
 
+**Prospective vs Retrospective Study**<br>
+Both prospective and retrospective study are a kind of cohort study. In prospective study, researchers take all subjects into account before they start developing noteworthy outcomes. In retrospective study, researchers focus on two groups of subjects: One with disease, the other similar one but without disease. E.g. <br>
+
+ * Prospective Study(前瞻性研究): 对100名有肺癌高危因素的人进行为期10年的跟踪调查，看看他们是否患上了肺癌。<br>
+ * Retrospective Study(回顾性研究): 对50名抽烟患有肺癌的人和50名抽烟但不患肺癌的人进行调查，对比他们之前的各种生活习惯等。
 
 
 ### **Statistical Knowledge**
