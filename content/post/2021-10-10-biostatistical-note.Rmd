@@ -65,17 +65,22 @@ AE: Adverse Events<br>
 ADE: Adverse Device Effect<br>
 BG: Blood Glucose<br>
 CGM: Continuous Glucose Monitoring<br>
+CR: Carb Ratio<br>
 CRF: Case Report Forms<br>
 CI: Clinical Investigation<br>
 CIP: Clinical Investigation Plan<br>
 CL: Closed Loop<br>
 CSR: Clinical Study Report<br>
 DD: Device Deficiency<br>
+DIA: Duration of Insulin Action<br>
 DKA: Diabetic Ketoacidosis<br>
 EOS: End of Study<br>
 FDA: Food and Drug Administration<br>
 HCL: Hybrid Closed Loop<br>
+IAC: Insulin Active Curve<br>
 IB: Investigator's Brochure<br>
+IOB: Insulin on Board<br>
+ISF: Insulin Sensitivity Factor<br>
 SAP: Statistical Analysis Plan<br>
 SAE: Serious Adverse Events<br>
 SADE: Serious Adverse Device Effect<br>
@@ -87,6 +92,7 @@ TDD: Total Daily Dose<br>
 TIR: Time in Target Range<br>
 UADE: Unanticipated Adverse Device Effect<br>
 USADE: Unanticipated Serious Adverse Device Effect<br>
+UAT: User Acceptance Testing<br>
 
 
 ### **Knowledge about Diabetes**
@@ -222,6 +228,15 @@ Terms to know:
 </tr>
 </table>
 
+**Insulin Sensitivity Factor (ISF)**<br>
+Insulin sensitivity factor or “correction factor” is how much one unit of insulin is expected to lower blood sugar. For example, if 1 unit of insulin will drop your blood sugar by 25 mg/dl, then your insulin sensitivity factor is 1:25. In the example above, the pump would recommend 3 units of insulin to bring blood glucose from 175 mg/dl down to 100 mg/dl. Different ISFs can be pre-programmed for different times of the day – e.g., many people are more insulin resistant in the morning, which requires a stronger correction factor.
+
+**Duration of Insulin Action (DIA)**<br>
+Duration of insulin action (or active insulin time) is how long a bolus of insulin takes to finish lowering blood glucose. The DIA time starts when a bolus is given and ends when the bolus is no longer lowering blood glucose levels. An accurate DIA will minimize insulin stacking and low blood sugar (hypoglycemia), which can happen when boluses are given too close together.
+
+**Insulin on Board (IOB)**<br>
+Insulin on board is how much insulin is still active inside the body from the previous bolus dose. It is calculated based on your DIA, though the exact calculation varies depending on the pump. Roughly speaking, for a DIA of three hours, a three-unit bolus dose taken at 12pm would have about one unit of IOB remaining two hours later, at 2pm. IOB is important to take into account, as it can help avoid insulin stacking. This is also helpful at bedtime when determining whether or not you need more insulin to cover a high reading.
+
 ### **Design of Experiment**
 
 **Multi-center**<br>
@@ -288,7 +303,7 @@ Under ITT, study participants are analyzed as members of the treatment group to 
 *9. https://www.medicinenet.com/randomized_controlled_trial/definition.htm*<br>
 *10. https://www.cd-biosciences.com/parallel-group-design/*<br>
 *11. https://www.healthxchange.sg/diabetes/essential-guide-diabetes/what-is-type-1-diabetes*<br>
-
+*12. https://diatribe.org/understanding-insulin-pump-settings*<br>
 
 
 
