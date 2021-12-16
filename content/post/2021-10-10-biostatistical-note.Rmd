@@ -91,8 +91,8 @@ TBR: Time Below Range<br>
 TDD: Total Daily Dose<br>
 TIR: Time in Target Range<br>
 UADE: Unanticipated Adverse Device Effect<br>
-USADE: Unanticipated Serious Adverse Device Effect<br>
 UAT: User Acceptance Testing<br>
+USADE: Unanticipated Serious Adverse Device Effect<br>
 
 
 ### **Knowledge about Diabetes**
@@ -283,6 +283,10 @@ Both prospective and retrospective study are a kind of cohort study. In prospect
 
 
 ### **Statistical Knowledge**
+
+**What is Power**<br>
+Power is the probability of rejecting the null hypothesis when in fact it is false.<br>
+Power is the probability of making a correct decision (to reject the null hypothesis) when the null hypothesis is false.
 
 **ITT Principle**<br>
 The intention-to-treat (ITT) principle is a cornerstone in the interpretation of randomized clinical trails conducted with the goal of influencing the selection of medical therapy for well-defined groups of patients. The ITT principle defines both the study population included in the primary effect analysis and how the outcomes are analyzed.

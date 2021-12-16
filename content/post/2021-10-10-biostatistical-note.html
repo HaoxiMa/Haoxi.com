@@ -68,11 +68,15 @@ CIP: Clinical Investigation Plan<br>
 CL: Closed Loop<br>
 CSR: Clinical Study Report<br>
 DD: Device Deficiency<br>
+DIA: Duration of Insulin Action<br>
 DKA: Diabetic Ketoacidosis<br>
 EOS: End of Study<br>
 FDA: Food and Drug Administration<br>
 HCL: Hybrid Closed Loop<br>
+IAC: Insulin Active Curve<br>
 IB: Investigator’s Brochure<br>
+IOB: Insulin on Board<br>
+ISF: Insulin Sensitivity Factor<br>
 SAP: Statistical Analysis Plan<br>
 SAE: Serious Adverse Events<br>
 SADE: Serious Adverse Device Effect<br>
@@ -83,6 +87,7 @@ TBR: Time Below Range<br>
 TDD: Total Daily Dose<br>
 TIR: Time in Target Range<br>
 UADE: Unanticipated Adverse Device Effect<br>
+UAT: User Acceptance Testing<br>
 USADE: Unanticipated Serious Adverse Device Effect<br></p>
 </div>
 <div id="knowledge-about-diabetes" class="section level3">
@@ -420,6 +425,12 @@ Combines intermediate- and short- acting insulin. Usually taken 10 to 30 minutes
 </td>
 </tr>
 </table>
+<p><strong>Insulin Sensitivity Factor (ISF)</strong><br>
+Insulin sensitivity factor or “correction factor” is how much one unit of insulin is expected to lower blood sugar. For example, if 1 unit of insulin will drop your blood sugar by 25 mg/dl, then your insulin sensitivity factor is 1:25. In the example above, the pump would recommend 3 units of insulin to bring blood glucose from 175 mg/dl down to 100 mg/dl. Different ISFs can be pre-programmed for different times of the day – e.g., many people are more insulin resistant in the morning, which requires a stronger correction factor.</p>
+<p><strong>Duration of Insulin Action (DIA)</strong><br>
+Duration of insulin action (or active insulin time) is how long a bolus of insulin takes to finish lowering blood glucose. The DIA time starts when a bolus is given and ends when the bolus is no longer lowering blood glucose levels. An accurate DIA will minimize insulin stacking and low blood sugar (hypoglycemia), which can happen when boluses are given too close together.</p>
+<p><strong>Insulin on Board (IOB)</strong><br>
+Insulin on board is how much insulin is still active inside the body from the previous bolus dose. It is calculated based on your DIA, though the exact calculation varies depending on the pump. Roughly speaking, for a DIA of three hours, a three-unit bolus dose taken at 12pm would have about one unit of IOB remaining two hours later, at 2pm. IOB is important to take into account, as it can help avoid insulin stacking. This is also helpful at bedtime when determining whether or not you need more insulin to cover a high reading.</p>
 </div>
 <div id="design-of-experiment" class="section level3">
 <h3><strong>Design of Experiment</strong></h3>
@@ -455,6 +466,9 @@ Both prospective and retrospective study are a kind of cohort study. In prospect
 </div>
 <div id="statistical-knowledge" class="section level3">
 <h3><strong>Statistical Knowledge</strong></h3>
+<p><strong>What is Power</strong><br>
+Power is the probability of rejecting the null hypothesis when in fact it is false.<br>
+Power is the probability of making a correct decision (to reject the null hypothesis) when the null hypothesis is false.</p>
 <p><strong>ITT Principle</strong><br>
 The intention-to-treat (ITT) principle is a cornerstone in the interpretation of randomized clinical trails conducted with the goal of influencing the selection of medical therapy for well-defined groups of patients. The ITT principle defines both the study population included in the primary effect analysis and how the outcomes are analyzed.</p>
 <p>Under ITT, study participants are analyzed as members of the treatment group to which they were randomized regardless of their adherence to, or whether they received, the intended treatment. For example, in a trail in which patients are randomized to receive either treatment A or treatment B, a patient may be randomized to receive treatment A but erroneously receive treatment B, or never receive any treatment, or not adhere to treatment A. In all of these situations, the patient whould be included in group A when comparing treatment outcomes using an ITT analysis.</p>
@@ -469,5 +483,6 @@ The intention-to-treat (ITT) principle is a cornerstone in the interpretation of
 <em>8. <a href="https://s4be.cochrane.org/blog/2020/09/07/crossover-trials-what-are-they-and-what-are-their-advantages-and-limitations/" class="uri">https://s4be.cochrane.org/blog/2020/09/07/crossover-trials-what-are-they-and-what-are-their-advantages-and-limitations/</a></em><br>
 <em>9. <a href="https://www.medicinenet.com/randomized_controlled_trial/definition.htm" class="uri">https://www.medicinenet.com/randomized_controlled_trial/definition.htm</a></em><br>
 <em>10. <a href="https://www.cd-biosciences.com/parallel-group-design/" class="uri">https://www.cd-biosciences.com/parallel-group-design/</a></em><br>
-<em>11. <a href="https://www.healthxchange.sg/diabetes/essential-guide-diabetes/what-is-type-1-diabetes" class="uri">https://www.healthxchange.sg/diabetes/essential-guide-diabetes/what-is-type-1-diabetes</a></em><br></p>
+<em>11. <a href="https://www.healthxchange.sg/diabetes/essential-guide-diabetes/what-is-type-1-diabetes" class="uri">https://www.healthxchange.sg/diabetes/essential-guide-diabetes/what-is-type-1-diabetes</a></em><br>
+<em>12. <a href="https://diatribe.org/understanding-insulin-pump-settings" class="uri">https://diatribe.org/understanding-insulin-pump-settings</a></em><br></p>
 </div>
