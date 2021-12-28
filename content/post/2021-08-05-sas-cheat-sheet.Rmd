@@ -58,6 +58,9 @@ In addition to `_ALL_` you could use any of the following:<br>
 When delete the specific global macro variable(s): <br>
 `%SYMDEL macro-variable(s);`<br>
 
+7.<br>
+LAG() function: We should create a new column as LAG(var1) if we need to compare var1 with LAG(var1) instead of using like `IF var ne LAG(var1)`.
+
 
 
 
