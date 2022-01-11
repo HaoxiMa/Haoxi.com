@@ -25,6 +25,7 @@ text-align: justify}
 
 ---
 ### **Clinical Trials**
+#### Phases
 Clinical trials are systematically designed, set of activities that are done to verify the safety and efficacy of an investigational new drug (IND).
 
 ![](/post/2021-10-10-biostatistical-note_files/1.jpg)
@@ -35,6 +36,10 @@ Clinical trials are systematically designed, set of activities that are done to 
 * **Phase III trial** gathers more information about safety and effectiveness, studying different populations and different dosages, using the drug in combination with other drugs. The number of subjects usually ranges from several hundred to about 3,000 people. If the FDA agrees that the trial results are positive, it will approve the experimental drug or device.
 
 * **Phase IV trial** for drugs or devices takes place after the FDA approves their use. A device or drug's effectiveness and safety are monitored in large, diverse populations. Sometimes, the side effects of a drug may not become clear until more people have taken it over a longer period of time.
+
+#### Regulations
+**Clinical Data Interchange Standards Consortium (CDISC)**
+A non-profit group that defines clinical data standards for the pharmaceutical industry. CDISC has developed numerous data models that you should familiarize yourself with. Two key sets of standards that affect the majority of clinical trail programmers are the Study Data Tabulation Model (SDTM) used for submitting data tabulations and the Analysis Data Set Model (ADaM) used for submitting analysis datas sets. While these two sets of standards overlap in many areas, both have many distinct components that can affect how data is stored.
 
 #### Clinical Study Documents
 
