@@ -38,7 +38,7 @@ Clinical trials are systematically designed, set of activities that are done to 
 * **Phase IV trial** for drugs or devices takes place after the FDA approves their use. A device or drug's effectiveness and safety are monitored in large, diverse populations. Sometimes, the side effects of a drug may not become clear until more people have taken it over a longer period of time.
 
 #### Regulations
-**Clinical Data Interchange Standards Consortium (CDISC)**
+**Clinical Data Interchange Standards Consortium (CDISC)**<br>
 A non-profit group that defines clinical data standards for the pharmaceutical industry. CDISC has developed numerous data models that you should familiarize yourself with. Two key sets of standards that affect the majority of clinical trail programmers are the Study Data Tabulation Model (SDTM) used for submitting data tabulations and the Analysis Data Set Model (ADaM) used for submitting analysis datas sets. While these two sets of standards overlap in many areas, both have many distinct components that can affect how data is stored.
 
 #### Clinical Study Documents
@@ -86,6 +86,7 @@ IAC: Insulin Active Curve<br>
 IB: Investigator's Brochure<br>
 IOB: Insulin on Board<br>
 ISF: Insulin Sensitivity Factor<br>
+RAD: Regulatory Affairs Domain<br>
 SAP: Statistical Analysis Plan<br>
 SAE: Serious Adverse Events<br>
 SADE: Serious Adverse Device Effect<br>
