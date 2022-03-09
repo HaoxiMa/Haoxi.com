@@ -41,7 +41,15 @@ text-align: justify}
 <div id="regulations" class="section level4">
 <h4>Regulations</h4>
 <p><strong>Clinical Data Interchange Standards Consortium (CDISC)</strong><br>
-A non-profit group that defines clinical data standards for the pharmaceutical industry. CDISC has developed numerous data models that you should familiarize yourself with. Two key sets of standards that affect the majority of clinical trail programmers are the Study Data Tabulation Model (SDTM) used for submitting data tabulations and the Analysis Data Set Model (ADaM) used for submitting analysis datas sets. While these two sets of standards overlap in many areas, both have many distinct components that can affect how data is stored.</p>
+A non-profit group that defines clinical data standards for the pharmaceutical industry. CDISC has developed numerous data models that you should familiarize yourself with. Two key sets of standards that affect the majority of clinical trail programmers are the Study Data Tabulation Model (SDTM) used for submitting data tabulations and the Analysis Data Set Model (ADaM) used for submitting analysis datasets. While these two sets of standards overlap in many areas, both have many distinct components that can affect how data is stored.</p>
+<p>Some sponsors might label gender as 0 or 1, while some might use “Female” or “Male”, so SDTM gives a standard that gender should be formatted as F or M when putting into public. ADaM datasets include variables taken directly from SDTM as well as additional derived variables.</p>
+<p>Besides, SDTM and ADaM, Clinical Data Acquisition Standards Harmonization (CDASH) is also widely used, which provides guidance to develop the CRF for the domains that are commonly used for the majority of the clinical trials across the therapeutic areas.</p>
+<p><strong>Classify Clinical Trial Data based on SDTM</strong><br>
+The data are broadly classified as efficacy data and safety data. CDISC have categorized data into interventions class, events class, finding class, and other special-purpose “domains” such as demographics.</p>
+<p><img src="/post/2021-10-10-biostatistical-note_files/WechatIMG685.png" /></p>
+<p>Deeper into DM detail:</p>
+<p><img src="/post/2021-10-10-biostatistical-note_files/WechatIMG686.png" /></p>
+<p>Definition of all standard domain models: <a href="https://en.wikipedia.org/wiki/SDTM" class="uri">https://en.wikipedia.org/wiki/SDTM</a></p>
 </div>
 <div id="clinical-study-documents" class="section level4">
 <h4>Clinical Study Documents</h4>
@@ -229,7 +237,7 @@ Terms to know:</p>
 <ul>
 <li>Onset - How quickly insulin lowers your blood sugar.</li>
 <li>Peak Time - When insulin is at maximum strength.</li>
-<li>Duration - How long insulin works to lower your blood sugae.</li>
+<li>Duration - How long insulin works to lower your blood sugar.</li>
 </ul>
 <table>
 <tr>
@@ -498,5 +506,6 @@ The intention-to-treat (ITT) principle is a cornerstone in the interpretation of
 <em>9. <a href="https://www.medicinenet.com/randomized_controlled_trial/definition.htm" class="uri">https://www.medicinenet.com/randomized_controlled_trial/definition.htm</a></em><br>
 <em>10. <a href="https://www.cd-biosciences.com/parallel-group-design/" class="uri">https://www.cd-biosciences.com/parallel-group-design/</a></em><br>
 <em>11. <a href="https://www.healthxchange.sg/diabetes/essential-guide-diabetes/what-is-type-1-diabetes" class="uri">https://www.healthxchange.sg/diabetes/essential-guide-diabetes/what-is-type-1-diabetes</a></em><br>
-<em>12. <a href="https://diatribe.org/understanding-insulin-pump-settings" class="uri">https://diatribe.org/understanding-insulin-pump-settings</a></em><br></p>
+<em>12. <a href="https://diatribe.org/understanding-insulin-pump-settings" class="uri">https://diatribe.org/understanding-insulin-pump-settings</a></em><br>
+<em>13. Udemy: Hack into SAS Clinical Trials Programming Certification: <a href="https://www.udemy.com/course/hack-into-sas-clinical-trials-programming-certification/" class="uri">https://www.udemy.com/course/hack-into-sas-clinical-trials-programming-certification/</a></em><br></p>
 </div>

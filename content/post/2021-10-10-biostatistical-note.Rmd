@@ -39,7 +39,22 @@ Clinical trials are systematically designed, set of activities that are done to 
 
 #### Regulations
 **Clinical Data Interchange Standards Consortium (CDISC)**<br>
-A non-profit group that defines clinical data standards for the pharmaceutical industry. CDISC has developed numerous data models that you should familiarize yourself with. Two key sets of standards that affect the majority of clinical trail programmers are the Study Data Tabulation Model (SDTM) used for submitting data tabulations and the Analysis Data Set Model (ADaM) used for submitting analysis datas sets. While these two sets of standards overlap in many areas, both have many distinct components that can affect how data is stored.
+A non-profit group that defines clinical data standards for the pharmaceutical industry. CDISC has developed numerous data models that you should familiarize yourself with. Two key sets of standards that affect the majority of clinical trail programmers are the Study Data Tabulation Model (SDTM) used for submitting data tabulations and the Analysis Data Set Model (ADaM) used for submitting analysis datasets. While these two sets of standards overlap in many areas, both have many distinct components that can affect how data is stored.
+
+Some sponsors might label gender as 0 or 1, while some might use "Female" or "Male", so SDTM gives a standard that gender should be formatted as F or M when putting into public. ADaM datasets include variables taken directly from SDTM as well as additional derived variables.
+
+Besides, SDTM and ADaM, Clinical Data Acquisition Standards Harmonization (CDASH) is also widely used, which provides guidance to develop the CRF for the domains that are commonly used for the majority of the clinical trials across the therapeutic areas.
+
+**Classify Clinical Trial Data based on SDTM**<br>
+The data are broadly classified as efficacy data and safety data. CDISC have categorized data into interventions class, events class, finding class, and other special-purpose "domains" such as demographics.
+
+![](/post/2021-10-10-biostatistical-note_files/WechatIMG685.png)
+
+Deeper into DM detail:
+
+![](/post/2021-10-10-biostatistical-note_files/WechatIMG686.png)
+
+Definition of all standard domain models: https://en.wikipedia.org/wiki/SDTM
 
 #### Clinical Study Documents
 
@@ -178,7 +193,7 @@ Terms to know:
 
 * Onset - How quickly insulin lowers your blood sugar.
 * Peak Time - When insulin is at maximum strength.
-* Duration - How long insulin works to lower your blood sugae.
+* Duration - How long insulin works to lower your blood sugar.
 
 <table>
 <tr>
@@ -319,7 +334,7 @@ Under ITT, study participants are analyzed as members of the treatment group to 
 *10. https://www.cd-biosciences.com/parallel-group-design/*<br>
 *11. https://www.healthxchange.sg/diabetes/essential-guide-diabetes/what-is-type-1-diabetes*<br>
 *12. https://diatribe.org/understanding-insulin-pump-settings*<br>
-
+*13. Udemy: Hack into SAS Clinical Trials Programming Certification: https://www.udemy.com/course/hack-into-sas-clinical-trials-programming-certification/*<br>
 
 
 
