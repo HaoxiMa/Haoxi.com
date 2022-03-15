@@ -61,7 +61,8 @@ When delete the specific global macro variable(s): <br>
 7.<br>
 LAG() function: We should create a new column as LAG(var1) if we need to compare var1 with LAG(var1) instead of using like `IF var1 ne LAG(var1)`.
 
-
+8.<br>
+在宏的内部也可以修改全局宏变量，若需要在内部创建全局宏变量，则加%GLOABL即可. 注意：当局部宏变量和全局宏变量同名时，局部宏变量不能overwrite全局宏变量.
 
 
 
