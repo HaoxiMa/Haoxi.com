@@ -114,6 +114,7 @@ SAE: Serious Adverse Events<br>
 SADE: Serious Adverse Device Effect<br>
 SG: Sensor Glucose<br>
 SMBG: Self-Monitoring of Blood Glucose<br>
+SME: Subject Matter Expert<br>
 TAR: Time Above Range<br>
 TBR: Time Below Range<br>
 TDD: Total Daily Dose<br>
