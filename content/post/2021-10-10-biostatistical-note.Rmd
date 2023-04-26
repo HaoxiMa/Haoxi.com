@@ -326,6 +326,12 @@ The intention-to-treat (ITT) principle is a cornerstone in the interpretation of
 
 Under ITT, study participants are analyzed as members of the treatment group to which they were randomized regardless of their adherence to, or whether they received, the intended treatment. For example, in a trail in which patients are randomized to receive either treatment A or treatment B, a patient may be randomized to receive treatment A but erroneously receive treatment B, or never receive any treatment, or not adhere to treatment A. In all of these situations, the patient whould be included in group A when comparing treatment outcomes using an ITT analysis.
 
+**Calculate overall mean with group mean**<br>
+![](/post/2021-10-10-biostatistical-note_files/WechatIMG55169.png)
+
+**Calculate overall variance with group variance**<br>
+![](/post/2021-10-10-biostatistical-note_files/WechatIMG55170.jpeg)
+
 
 ***<u>References</u>***
 
